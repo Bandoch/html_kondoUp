@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Contas bancárias </title>
+        <link rel="stylesheet" href="cond_bank.css">
+    </head>
+<body>
+    <div class="cond__bank__header"> 
+        <img class="cond__bank__header__logo" src="images/logo.png"> 
+        <h1 class="cond__bank__header__text"> Quais contas bancárias o condomínio possui? </h1>
+    </div>
+<div class="cond__bank__content">
+    <div class="cond__bank__fields__names"> <br>
+        <form> 
+            <fieldset>
+                <legend> CONTAS BANCÁRIAS </legend> <br>
+                Banco: 
+                <input type="text" name="cond_bank_name" size="10"> 
+                &#160&#160Agência:  
+                <input type="text" name="cond_bank_agency" size="8"> 
+                &#160&#160Conta(Com dígito):  
+                <input type="text" name="cond_bank_account" size="8">
+                &#160&#160Saldo inicial: 
+                <input type="text" name="cond_bank_money"> <br><br>
+            </fieldset>
+        </form> <br>
+    </div>
+        <div class="cond_bank_fields_date"> <br>
+            <form>
+            Quando você viu que tinha esse valor? <br><br>
+            <input type="text" name="cond_bank_date">
+            </form> <br>
+        </div>
+        <div class="cond__bank__buttons">
+            <button class="cond__previous__button"> Anterior </button> 
+            <button class="cond__next__button"> Próximo </button>
+            <button class="cond__cancel__button"> Cancelar </button> 
+        </div>
+    </div>
+</body>

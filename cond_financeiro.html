@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Financeiro </title>
+        <link rel="stylesheet" href="cond_financeiro.css">
+    </head>
+<body>
+    <div class="cond__finances__header" style="width:1904px; height:100px;"> 
+        <img class="cond__finances__header__logo" src="images/logo.png"> 
+        <h1 class="cond__finances__header__text"> Financeiro </h1>
+    </div>
+        <div class="cond__finances__content">
+            <div class="cond__finances__fields__ar"> <br>
+                <form> Dia de vencimento das cobranças: <br>
+                    <input type="text" name="cond_cob" size="37"> <br><br>
+                </form>
+            </div>
+        <div class="cond__finances__fields__tx"> <br>
+            <form>
+                <fieldset>
+                    <legend> JUROS E MULTAS </legend> <br>
+                    Taxa de juros mensal: (%) <br>
+                    <input type="text" name="cond_tx" size="28">  
+                    <input type="checkbox" value="" name="check"> Pro rata dia <br><br>
+                    Taxa de multa: (%) <br>
+                    <input type="text" name="cond_txm" size="23"> 
+                    <input type="checkbox" value="" name="check"> Calcular usando valor principal + juros <br><br>
+                </fieldset>
+            </form>
+        </div> 
+        <div class="cond__finances__fields__ind"> <br><br>
+            <form>
+                <fieldset>
+                    <legend> INADIMPLÊNCIA </legend> <br>
+                    Honorários do Advogado (%) <br>
+                    <input type="text" name="cond_ind_law" size="32"> <br><br>
+                    Dias para inadimplência <br>
+                    <input type="text" name="cond_ind_day" size="26"> <br><br>
+                    <input type="checkbox" value="" name="check"> Processar atualização monetária, após: <br><br>
+                    <input type="text" name="cond_ind_day_at"> <br><br>
+                </fieldset>
+            </form>
+        </div>
+        <div class="cond__finances__fields__pay"> <br><br>
+            <form>
+                <fieldset>
+                    <legend> DESCONTO PARA PAGAMENTO ANTECIPADO </legend> <br>
+                    Taxa de desconto (%)
+                    <input type="text" name="cond_pay"> 
+                    <input type="checkbox" value="" name="check"> Usar valor fixo <br><br>
+                    Conceder desconto até <br>
+                    <input type="text" name="cond_pay_disc" size="25"> <br><br>
+                </fieldset> <br>
+            </form>
+        </div>
+        <div class="cond__finances__buttons">
+            <button class="cond__previous__button"> Anterior </button> 
+            <button class="cond__next__button"> Próximo </button>
+            <button class="cond__cancel__button"> Cancelar </button> 
+        </div>
+    </div>
+</body>

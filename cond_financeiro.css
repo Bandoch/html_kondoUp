@@ -1,17 +1,17 @@
-.cond__register__header {
+cond__finances__header {
     height: 100px;
     width: 1904px;
     
 }
 
-.cond__register__header__logo {
+.cond__finances__header__logo {
     height: 70px;
     width: 100px;
     padding: 25px 30px;
     float: left;
 }
 
-.cond__register__header__text {
+.cond__finances__header__text {
     width: 450px;
     height: 38px;
     float: left;
@@ -19,21 +19,25 @@
     font-family: 'Lato-Regular';
 }
 
-.cond__register__content {
+.cond__finances__content {
     height: 600px;
     width: 800px;
     padding: 0px 0px 0px 30px;
 }
 
-.cond__register__fields__names {
+.cond__finances__fields__ar {
     font-family: 'Lato-Regular';
 }
 
-.cond__register__fields__adress {
+.cond__finances__fields__tx {
     font-family: 'Lato-Regular';
 }
 
-.cond__register__fields__contact {
+.cond__finances__fields__ind {
+    font-family: 'Lato-Regular';
+}
+
+.cond__finances__fields__pay {
     font-family: 'Lato-Regular';
 }
 
@@ -42,16 +46,12 @@
     src: url('Lato-Regular.woff');
 }
 
-.cond__register__buttons {
-    float: right;
-    padding: 20px 3px;
-}
-
 .cond__previous__button {
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
     font-family: 'Lato-Regular';
+    float: right;
     padding: 5px 5px;
 }
 
@@ -60,6 +60,7 @@
     background-color: #2a88ce;
     border-radius: 5px;
     font-family: 'Lato-Regular';
+    float: right;
     padding: 5px 5px;
 }
 
@@ -68,5 +69,6 @@
     background-color: #2a88ce;
     border-radius: 5px;
     font-family: 'Lato-Regular';
+    float: right;
     padding: 5px 5px;
 }
