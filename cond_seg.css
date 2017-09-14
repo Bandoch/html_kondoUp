@@ -1,65 +1,58 @@
-cond__finances__header {
+.cond__seg__header {
     height: 100px;
     width: 1904px;
     
 }
 
-.cond__finances__header__logo {
+.cond__seg__header__logo {
     height: 70px;
     width: 100px;
     padding: 25px 30px;
     float: left;
 }
 
-.cond__finances__header__text {
+.cond__seg__header__text {
     width: 450px;
     height: 38px;
     float: left;
     padding: 5px 0px;
-    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
+    font-family: 'Lato-Regular',Arial, Helvetica, sans-serif;
 }
 
-.cond__finances__content {
+.cond__seg__content {
     height: 600px;
     width: 800px;
     padding: 0px 0px 0px 30px;
 }
 
 .body {
-    font-family: 'Lato-Regular' , Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-@font-face {
-    font-family: "Lato-Regular";
-    src: url('Lato-Regular.woff') format('embedded-opentype'),
-    url('Lato-Regular.woff2') format('opentype');
-}
-
-
 
 .cond__previous__button {
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
-    float: right;
+    font-family: 'Lato-Regular',Arial, Helvetica, sans-serif;
     padding: 5px 5px;
+    float: right;
+
 }
 
 .cond__next__button {
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
-    float: right;
+    font-family: 'Lato-Regular',Arial, Helvetica, sans-serif;
     padding: 5px 5px;
+    float: right;
 }
 
 .cond__cancel__button {
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
-    float: right;
+    font-family: 'Lato-Regular',Arial, Helvetica, sans-serif;
     padding: 5px 5px;
+    float: right;
 }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Informações do Síndico </title>
+        
+        <link rel="stylesheet" href="cond_sind.css">
+    </head>
+<body class="body">
+    <div class="cond__sind__header"> 
+        <img class="cond__sind__header__logo" src="images/logo.png"> 
+        <h1 class="cond__sind__header__text"> Síndico </h1>
+    </div>
+    <div class="cond__sind__content">
+        <div class="cond__sind__fields__names"> <br>
+            <form> 
+                <fieldset>                
+                    <legend> &#160DADOS DO SÍNDICO&#160 </legend>
+                    Nome do Síndico: <br>
+                    <input type="text" name="cond_sind_name" size="60"> <br><br>
+                    Profissional 
+                    <input type="checkbox" name="cond_sind_p" >
+                    Morador 
+                    <input type="checkbox" name="cond_sind_m"> <br><br>
+                    Início do Mandato: <br>
+                    <input type="date" name="cond_sind_i_date"> <br><br>
+                    Término do Mandato: <br>
+                    <input type="date" name="cond_sind_f_date"> <br><br>
+                </fieldset>
+            </form> <br>
+        </div>
+        <div class="cond__sind__fields__pay"> <br>
+            <form> 
+                <fieldset>
+                    <legend> &#160PAGAMENTO&#160 </legend> <br>
+                    Data de pagamento:  
+                    <input type="text" name="cond_sind_pay" size="10"> 
+                    &#160&#160Banco:
+                    <input type="text" name="cond_sind_account" size="10" >
+                    &#160&#160Agência:  
+                    <input type="text" name="cond_sind_agency" size="10"> <br><br>
+                </fieldset>            
+            </form>
+        <div class="cond__sind__fields__contact"> <br>
+            <form>
+                <fieldset>
+                    <legend> &#160CONTATO&#160 </legend> <br>
+                    Unidade do Síndico: <br>
+                    <input type="text" name="cond_sind_unit"> <br><br>
+                    Telefone do Síndico: <br>
+                    <input type="text" name="cond_sind_phone"> <br><br>
+                    E-mail do Síndico: <br>
+                    <input type="text" name="cond_sind_number"> <br>
+                </fieldset>
+            </form>
+        </div>
+        <div class="cond__sind__buttons">
+                <button class="cond__previous__button"> Anterior </button> 
+                <button class="cond__next__button"> Próximo </button>
+                <button class="cond__cancel__button"> Cancelar </button> 
+        </div>   
+    </div>
+</div>
+</body>

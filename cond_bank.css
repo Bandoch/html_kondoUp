@@ -16,7 +16,7 @@
     height: 38px;
     float: left;
     padding: 5px 0px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato-Regular',Arial, Helvetica, sans-serif;
 }
 
 .cond__bank__content {
@@ -25,12 +25,8 @@
     padding: 0px 0px 0px 30px;
 }
 
-.cond__bank__fields__names {
-    font-family: 'Lato-Regular';
-}
-
-.cond_bank_fields_date {
-    font-family: 'Lato-Regular';
+.body {
+    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -42,7 +38,7 @@
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
     float: right;
     padding: 5px 5px;
 }
@@ -51,7 +47,7 @@
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
     float: right;
     padding: 5px 5px;
 }
@@ -60,7 +56,7 @@
     font-size: 15px;
     background-color: #2a88ce;
     border-radius: 5px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato-Regular', Arial, Helvetica, sans-serif;
     float: right;
     padding: 5px 5px;
 }
